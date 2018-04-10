@@ -28,13 +28,6 @@ class ViewController: UIViewController {
         changeButoonState(start: true, stop: false, reset: false)
 
     }
-
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     
     @IBAction func tappedStart(sender: UIButton) {
         changeButoonState(start: false, stop: true, reset: false)
@@ -58,7 +51,6 @@ class ViewController: UIViewController {
         animalIndex = 0
         animalLabel.text = animals[0]
     }
-    
     
     func update() {
         // count
