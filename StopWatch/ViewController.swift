@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet var stopButton: UIButton!
     @IBOutlet var resetButton: UIButton!
     
-    var timer =  Timer()
+    var timer =   Timer()
     var count = 0
     var animals = ["🐭","🐮","🐯","🐰","🐲","🐍","🐴","🐏","🐒","🐓","🐕","🐗"]
     var animalIndex = 0
